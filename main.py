@@ -6,7 +6,7 @@ from resend.exceptions import ResendError
 from datetime import datetime
 
 #url for the exchangerate api
-exchangerate_api_key = os.environ.get("exchangerate_api_key")
+exchangerate_api_key = os.environ.get("EXCHANGERATE_API_KEY")
 
 url = f"https://v6.exchangerate-api.com/v6/{exchangerate_api_key}/latest/"
 Base = "USD"
